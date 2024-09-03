@@ -1,9 +1,9 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/aaa-rem.png';
+import heroImg from '../../assets/an.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
+import twitterLight from '../../assets/ww.svg';
+import twitterDark from '../../assets/wd.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -42,7 +42,7 @@ function Hero() {
         </h1>
         <h2>Backend Developer</h2>
         <span>
-          <a href="https://api.whatsapp.com/11972694099" target="_blank">
+          <a href="https://wa.me/5511972694099" target="_blank">
             <img src={twitterIcon} alt="whatsapp icon" />
           </a>
           <a href="https://github.com/hada97" target="_blank">
