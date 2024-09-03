@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/aa.jpg';
+import heroImg from '../../assets/aa.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -53,10 +53,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Estou sempre em busca de conhecimento e desafios
+          Graduando em Análise e Desenvolvimento de Sistemas, experiência backend com Java e Spring boot, Api Rest, banco de dados Sql e noSql, Python e nuvem AWS
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Download cv</button>
         </a>
       </div>
     </section>

@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import poke from '../../assets/pkb.png';
+import py from '../../assets/py.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -17,19 +16,19 @@ function Projects() {
           p="Java Api Rest"
         />
         <ProjectCard
-          src={freshBurger}
+          src={poke}
           link="https://github.com/hada97/pokedex"
           h3="Pokedex"
           p="JS game"
         />
         <ProjectCard
-          src={hipsster}
-          link=""
-          h3=""
-          p=""
+          src={py}
+          link="https://github.com/hada97/data_visualization_Imigracao_01"
+          h3="Data Analysis"
+          p="Python notebook"
         />
         <ProjectCard
-          src={fitLift}
+          src={""}
           link=""
           h3=""
           p=""
