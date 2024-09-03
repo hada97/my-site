@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/aa.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of adailson"
         />
         <img
           className={styles.colorMode}
@@ -36,25 +36,24 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Adailson
           <br />
-          Johnsen
+          Guimaraes
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Backend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
+          <a href="https://api.whatsapp.com/11972694099" target="_blank">
+            <img src={twitterIcon} alt="whatsapp icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/hada97" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/adailson-g-4938a9270/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Estou sempre em busca de conhecimento e desafios
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
