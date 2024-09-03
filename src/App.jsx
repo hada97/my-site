@@ -1,10 +1,11 @@
 
 import './App.css'
+import Hero from './sections/Hero/Hero';
 
 function App() {
+  console.log('test')
   return 
-    <>App</>;
-
+    <>Hero</>;
 }
 
-export default App
+export default App;
