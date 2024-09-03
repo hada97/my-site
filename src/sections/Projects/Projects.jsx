@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
+import node from '../../assets/node.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -23,15 +24,15 @@ function Projects() {
         />
         <ProjectCard
           src={py}
-          link="https://github.com/hada97/data_visualization_Imigracao_01"
+          link="https://colab.research.google.com/github/hada97/data_visualization_Imigracao_01/blob/main/Data_visualization_Imigra%C3%A7%C3%A3o01.ipynb#scrollTo=13EnuLOB3o-f"
           h3="Data Analysis"
           p="Python notebook"
         />
         <ProjectCard
-          src={""}
+          src={node}
           link=""
-          h3=""
-          p=""
+          h3="Node"
+          p="API Rest"
         />
       </div>
     </section>
