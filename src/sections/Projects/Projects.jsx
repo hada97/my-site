@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
+import viberr from '../../assets/jj.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
 import node from '../../assets/node.jpg';
@@ -13,8 +13,8 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/hada97/spring-boot-api-rest"
-          h3="API Rest vollmed"
-          p="Java Api Rest"
+          h3="API vollmed"
+          p="Java + Spring Api"
         />
         <ProjectCard
           src={poke}
