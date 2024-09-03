@@ -30,9 +30,9 @@ function Projects() {
         />
         <ProjectCard
           src={node}
-          link=""
-          h3="Node"
-          p="API Rest"
+          link="https://github.com/hada97/nodeapi"
+          h3="Crud Rest AP"
+          p="Node.js"
         />
       </div>
     </section>
