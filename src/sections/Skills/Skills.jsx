@@ -13,22 +13,22 @@ function Skills() {
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Spring Boot" />
-        <SkillList src={checkMarkIcon} skill="Mysql" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="Java" />
+        <SkillList src={checkMarkIcon} skill="JavaScript" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={checkMarkIcon} skill="Databricks" />
+        <SkillList src={checkMarkIcon} skill="Postman" />
         <SkillList src={checkMarkIcon} skill="AWS" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Git " />
         <SkillList src={checkMarkIcon} skill="Doker" />
-
+        <SkillList src={checkMarkIcon} skill="MongoDB" />
+        <SkillList src={checkMarkIcon} skill="Mysql" />
       </div>
     </section>
   );

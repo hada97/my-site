@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/jj.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
-import node from '../../assets/node.jpg';
+import node from '../../assets/js.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
