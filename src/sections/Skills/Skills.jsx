@@ -28,7 +28,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Git " />
         <SkillList src={checkMarkIcon} skill="Doker" />
         <SkillList src={checkMarkIcon} skill="MongoDB" />
-        <SkillList src={checkMarkIcon} skill="Mysql" />
+        <SkillList src={checkMarkIcon} skill="MySql" />
       </div>
     </section>
   );
