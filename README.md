@@ -5,7 +5,7 @@
 [Veja como ficou!](https://hada97.github.io/my-site/)
 
 ## ⚙️ Funcionalidades
--Web page
+-Portfólio digital
 
 ## 🛠 Tecnologias
 
@@ -14,7 +14,7 @@ O projeto utiliza as seguintes tecnologias:
 - **HTML**: Linguagem de Marcação de Hipertexto
 - **REACT**: - Framework front-end JavaScript de código aberto para criar interfaces de usuário em páginas web.
 - **Git Hub Pages**: Ferramenta gratuita que permite hospedar sites estáticos.
-- **Visual Studio**: - **Git Hub Pages**:
+- **Visual Studio**:  Ambiente de desenvolvimento
 
 ## 📝 Licença
 
