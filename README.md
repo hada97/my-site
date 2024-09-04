@@ -10,11 +10,12 @@
 ## 🛠 Tecnologias
 
 O projeto utiliza as seguintes tecnologias:
-- **JavaScript**: Linguagem de programação
-- **HTML**: Linguagem de Marcação de Hipertexto
+- **JavaScript**: Linguagem de programação.
+- **HTML**: Linguagem de Marcação de Hipertexto.
 - **REACT**: - Framework front-end JavaScript de código aberto para criar interfaces de usuário em páginas web.
 - **Git Hub Pages**: Ferramenta gratuita que permite hospedar sites estáticos.
 - **Visual Studio**:  Ambiente de desenvolvimento
+- **Vite**:  Ferramenta moderna de build para desenvolvimento web. Ele foi criado por Evan You, o mesmo criador do Vue.js.
 
 ## 📝 Licença
 
@@ -31,4 +32,9 @@ Para começar a utilizar este projeto, siga as etapas abaixo:
 2. Navegue até o diretório do projeto:
     ```bash
     cd my-site
+    ```
+
+3. Instale as Dependências:
+    ```bash
+    npm install
     ```
