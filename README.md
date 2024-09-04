@@ -1,26 +1,20 @@
-# API Rest em Node.js
+# Meu site 
 
 ## 💻 Sobre o Projeto
 
-Esta é uma API Rest desenvolvida em Node.js que implementa as operações básicas de CRUD (Create, Read, Update, Delete). É uma base sólida para qualquer aplicação que precise interagir com uma base de dados.
-
-[Veja como ficou!]()
+[Veja como ficou!](https://hada97.github.io/my-site/)
 
 ## ⚙️ Funcionalidades
-
-A API implementa as seguintes funcionalidades:
-- **Create**: Cria novos registros na base de dados.
-- **Read**: Recupera e exibe registros da base de dados.
-- **Update**: Atualiza registros existentes na base de dados.
-- **Delete**: Remove registros da base de dados.
+-Web page
 
 ## 🛠 Tecnologias
 
 O projeto utiliza as seguintes tecnologias:
-- **Node.js**: Ambiente de execução para JavaScript.
-- **Express**: Framework para criação de APIs em Node.js.
-- **Visual Studio Code**: Editor de código.
-- **Insomnia**: Ferramenta para testar APIs.
+- **JavaScript**: Linguagem de programação
+- **HTML**: Linguagem de Marcação de Hipertexto
+- **REACT**: - Framework front-end JavaScript de código aberto para criar interfaces de usuário em páginas web.
+- **Git Hub Pages**: Ferramenta gratuita que permite hospedar sites estáticos.
+- **Visual Studio**: - **Git Hub Pages**:
 
 ## 📝 Licença
 
@@ -32,17 +26,9 @@ Para começar a utilizar este projeto, siga as etapas abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/hada97/nodeapi
+    git clone https://github.com/hada97/my-site
     ```
 2. Navegue até o diretório do projeto:
     ```bash
-    cd seu-repositorio
-    ```
-3. Instale as dependências:
-    ```bash
-    npm install
-    ```
-4. Inicie o servidor:
-    ```bash
-    npm start
+    cd my-site
     ```
