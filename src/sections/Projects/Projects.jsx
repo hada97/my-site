@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/jj.png';
+import viberr from '../../assets/j.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
-import node from '../../assets/js.png';
+import node from '../../assets/node-js.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -13,8 +13,8 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/hada97/spring-boot-api-rest"
-          h3="API vollmed"
-          p="Java + Spring Api"
+          h3="Rest API"
+          p="Java + Spring + MySql"
         />
         <ProjectCard
           src={poke}
