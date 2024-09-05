@@ -33,7 +33,6 @@
 
   button {
     background-color: var(--btn-color);
-    /*display: flex; /* Usar flexbox para centralizar o texto */
     align-items: center;
     justify-content: center;
     text-align: center; /* Garante que o texto dentro do botão esteja centralizado */
@@ -42,8 +41,8 @@
     border-radius: 20px;
     width: 126px;
     height: 50px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   }
