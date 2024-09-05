@@ -55,7 +55,7 @@ function Hero() {
         <p className={styles.description}>
           Graduando em Análise e Desenvolvimento de Sistemas, experiência backend com Java e Spring boot, Api Rest, banco de dados Sql e noSql, Python e nuvem AWS
         </p>
-        <a href={CV} download>
+        <a href={CV} download className={styles.description}>
           <button className="hover">Download cv</button>
         </a>
       </div>

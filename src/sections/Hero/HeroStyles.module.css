@@ -49,6 +49,7 @@
     transform: scale(1.05);
     text-align: center;
     justify-content: center;
+    
   }
 
   button:active {
@@ -84,12 +85,27 @@
   gap: 20px;
 }
 
-@media (width >= 800px) {
+@media (width < 799) {
   .container {
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 10px;
+    .hero {
+      max-width: 300px;
+      width: 300px;
+    }
+  }
+}
 
+@media (width >= 800px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
     .hero {
       max-width: 350px;
       width: 350px;
@@ -99,6 +115,11 @@
 
 @media (width >= 1400px) {
   .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     .hero {
       max-width: 400px;
       width: 400px;
