@@ -33,8 +33,10 @@
 
   button {
     background-color: var(--btn-color);
+    /*display: flex; /* Usar flexbox para centralizar o texto */
     align-items: center;
     justify-content: center;
+    text-align: center; /* Garante que o texto dentro do botão esteja centralizado */
     color: var(--btn-text-color);
     border: none;
     border-radius: 20px;
