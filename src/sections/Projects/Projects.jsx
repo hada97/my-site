@@ -1,5 +1,5 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/j.png';
+import viberr from '../../assets/java.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
 import node from '../../assets/node-js.png';
