@@ -3,7 +3,9 @@ import viberr from '../../assets/java.png';
 import poke from '../../assets/pkb.png';
 import py from '../../assets/py.jpg';
 import node from '../../assets/node-js.png';
+import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
+
 
 function Projects() {
   return (
@@ -33,6 +35,12 @@ function Projects() {
           link="https://github.com/hada97/nodeapi"
           h3="Rest API"
           p="Node.js + MongoDB"
+        />
+        <ProjectCard
+          src={apijava}
+          link="https://github.com/hada97/alurafood"
+          h3="Rest API"
+          p="Java API"
         />
       </div>
     </section>
