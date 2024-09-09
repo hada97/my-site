@@ -22,7 +22,7 @@ function Projects() {
           src={poke}
           link="https://github.com/hada97/pokedex"
           h3="Pokedex"
-          p="JS game"
+          p="JS + API consumption"
         />
         <ProjectCard
           src={py}
@@ -40,7 +40,7 @@ function Projects() {
           src={apijava}
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
-          p="Java API"
+          p="Java + Spring + MS"
         />
       </div>
     </section>
