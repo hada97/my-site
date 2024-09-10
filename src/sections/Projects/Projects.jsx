@@ -20,6 +20,12 @@ function Projects() {
           p="Spring + MySql"
         />
         <ProjectCard
+          src={kotlin}
+          link="https://github.com/hada97/kotlin-api"
+          h3="Rest API"
+          p="API Kotlin"
+        />
+        <ProjectCard
           src={poke}
           link="https://github.com/hada97/pokedex"
           h3="Pokedex JS"
@@ -41,13 +47,7 @@ function Projects() {
           src={apijava}
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
-          p="Spring + MS"
-        />
-         <ProjectCard
-          src={kotlin}
-          link=""
-          h3="Rest API"
-          p="API Kotlin"
+          p="Spring Microservices"
         />
       </div>
     </section>
