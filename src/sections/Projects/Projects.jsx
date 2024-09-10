@@ -1,10 +1,11 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/java.png';
 import poke from '../../assets/pkb.png';
-import py from '../../assets/py.jpg';
+import py from '../../assets/python.png';
 import node from '../../assets/node-js.png';
 import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
+import kotlin from '../../assets/kt.png';
 
 
 function Projects() {
@@ -16,13 +17,13 @@ function Projects() {
           src={viberr}
           link="https://github.com/hada97/spring-boot-api-rest"
           h3="Rest API"
-          p="Java + Spring + MySql"
+          p="Spring + MySql"
         />
         <ProjectCard
           src={poke}
           link="https://github.com/hada97/pokedex"
-          h3="Pokedex"
-          p="JS + API consumption"
+          h3="Pokedex JS"
+          p="API consumption"
         />
         <ProjectCard
           src={py}
@@ -34,13 +35,19 @@ function Projects() {
           src={node}
           link="https://github.com/hada97/nodeapi"
           h3="Rest API"
-          p="Node.js + MongoDB"
+          p="Node + MongoDB"
         />
         <ProjectCard
           src={apijava}
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
-          p="Java + Spring + MS"
+          p="Spring + MS"
+        />
+         <ProjectCard
+          src={kotlin}
+          link=""
+          h3="Rest API"
+          p="API Kotlin"
         />
       </div>
     </section>
