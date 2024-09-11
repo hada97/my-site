@@ -39,15 +39,15 @@ function Projects() {
         />
         <ProjectCard
           src={node}
-          link="https://github.com/hada97/nodeapi"
-          h3="Rest API"
-          p="Node + MongoDB"
+          link="https://3m82nyzpy9.us-east-1.awsapprunner.com/docs/"
+          h3="Node Rest API"
+          p="MongoDB + Docker + AWS"
         />
         <ProjectCard
           src={apijava}
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
-          p="Spring Microservices"
+          p="Microservices"
         />
       </div>
     </section>
