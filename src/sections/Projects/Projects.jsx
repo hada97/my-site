@@ -6,6 +6,7 @@ import node from '../../assets/node-js.png';
 import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
+import jv from '../../assets/jv.png';
 
 
 function Projects() {
@@ -48,6 +49,12 @@ function Projects() {
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
           p="Microservices"
+        />
+          <ProjectCard
+          src={jv}
+          link="https://github.com/hada97/workshopmongo"
+          h3="Rest API"
+          p="Spring API + MongoDB"
         />
       </div>
     </section>
