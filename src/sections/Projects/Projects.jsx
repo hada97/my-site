@@ -15,9 +15,9 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/hada97/spring-boot-api-rest"
+          link="http://54.159.124.62:8080/swagger-ui/index.html"
           h3="Rest API"
-          p="Spring + MySql"
+          p="Spring + MySql + AWS"
         />
         <ProjectCard
           src={kotlin}
