@@ -6,7 +6,7 @@ import node from '../../assets/node-js.png';
 import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
-import jv from '../../assets/jv.png';
+import jv from '../../assets/java (2).png';
 
 
 function Projects() {
