@@ -7,6 +7,7 @@ import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
 import jv from '../../assets/java (2).png';
+import aws from '../../assets/aws.png';
 
 
 function Projects() {
@@ -14,6 +15,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+      <ProjectCard
+          src={aws}
+          link="https://www.credly.com/badges/275ba87a-3232-42fa-bf66-48a0fe9d608b/public_url"
+          h3="AWS Certified"
+          p="Cloud Practitioner"
+        />
         <ProjectCard
           src={viberr}
           link="http://54.159.124.62:8080/swagger-ui/index.html"
@@ -24,7 +31,7 @@ function Projects() {
           src={kotlin}
           link="https://github.com/hada97/kotlin-api"
           h3="Rest API"
-          p="API Kotlin"
+          p="Spring + Kotlin + H2"
         />
         <ProjectCard
           src={poke}
@@ -48,13 +55,13 @@ function Projects() {
           src={apijava}
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
-          p="Microservices"
+          p="Spring Cloud MS"
         />
           <ProjectCard
           src={jv}
           link="https://github.com/hada97/workshopmongo"
           h3="Rest API"
-          p="Spring API + MongoDB"
+          p="Spring + MongoDB"
         />
       </div>
     </section>

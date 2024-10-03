@@ -51,7 +51,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Graduando em Análise e Desenvolvimento de Sistemas, sou AWS Certified Cloud Practitioner, experiência com Java, banco de dados SQL e NOSQL, Python, Linux e Docker
+          Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados SQL e NOSQL, Python, JS e Docker
         </p>
         <a href={CV} download className={styles.description}>
           <button className="hover">Resume</button>
