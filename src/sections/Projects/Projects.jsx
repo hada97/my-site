@@ -16,12 +16,7 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-      <ProjectCard
-          src={aws}
-          link="https://www.credly.com/badges/275ba87a-3232-42fa-bf66-48a0fe9d608b/public_url"
-          h3="AWS Certified"
-          p="Cloud Practitioner"
-        />
+    
         <ProjectCard
           src={viberr}
           link="http://54.159.124.62:8080/swagger-ui/index.html"

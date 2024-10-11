@@ -10,6 +10,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
+import awsmini from '../../assets/awsmini.png';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -42,7 +43,6 @@ function Hero() {
         </h1>
         <h2>Backend Developer</h2>
         <span>
-          
           <a href="https://github.com/hada97" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -50,12 +50,19 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
+
         <p className={styles.description}>
           Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados, Python, Node, Azure e Docker
         </p>
+
+        <a href="https://www.credly.com/badges/275ba87a-3232-42fa-bf66-48a0fe9d608b/public_url" target="_blank" rel="noopener noreferrer">
+          <img src={awsmini} alt="AWS logo"/>
+        </a>
+
         <a href={CV} download className={styles.description}>
           <button className="hover">Resume</button>
         </a>
+
       </div>
     </section>
   );
