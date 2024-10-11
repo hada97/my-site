@@ -8,6 +8,7 @@ import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
 import jv from '../../assets/java (2).png';
 import aws from '../../assets/aws.png';
+import jvapic from '../../assets/javaapic.png';
 
 
 function Projects() {
@@ -29,15 +30,15 @@ function Projects() {
         />
         <ProjectCard
           src={kotlin}
-          link="https://github.com/hada97/kotlin-api"
+          link="https://ko-hudjg9fxbfbagsbg.brazilsouth-01.azurewebsites.net/swagger-ui/index.html"
           h3="Rest API"
-          p="Spring + Kotlin + H2"
+          p="Spring + Kotlin + Azure"
         />
         <ProjectCard
           src={poke}
           link="https://github.com/hada97/pokedex"
-          h3="Pokedex JS"
-          p="API consumption"
+          h3="API consumption"
+          p="HTML + CSS + JS"
         />
         <ProjectCard
           src={py}
@@ -48,8 +49,8 @@ function Projects() {
         <ProjectCard
           src={node}
           link="https://3m82nyzpy9.us-east-1.awsapprunner.com/docs/"
-          h3="Node Rest API"
-          p="MongoDB + Docker + AWS"
+          h3="Rest API"
+          p="MongoDB + Node + AWS"
         />
         <ProjectCard
           src={apijava}
@@ -57,12 +58,21 @@ function Projects() {
           h3="Rest API"
           p="Spring Cloud MS"
         />
-          <ProjectCard
+
+        <ProjectCard
           src={jv}
-          link="https://github.com/hada97/workshopmongo"
+          link="https://adailson65workshop-geg6aeb5e2d4encm.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/user-controller/findAll"
           h3="Rest API"
-          p="Spring + MongoDB"
+          p="Spring + MongoDB + Azure"
         />
+
+        <ProjectCard
+          src={jvapic}
+          link="https://github.com/hada97/consulta-cep"
+          h3="API consumption"
+          p="Java + Spring"
+        />
+        
       </div>
     </section>
   );

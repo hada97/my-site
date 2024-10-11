@@ -51,7 +51,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados SQL e NOSQL, Python, JS e Docker
+          Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados, Python, Node, Azure e Docker
         </p>
         <a href={CV} download className={styles.description}>
           <button className="hover">Resume</button>
