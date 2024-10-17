@@ -55,10 +55,6 @@ function Hero() {
           Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados, Python, Node, Azure e Docker
         </p>
 
-        <a href="https://www.credly.com/badges/275ba87a-3232-42fa-bf66-48a0fe9d608b/public_url" target="_blank" rel="noopener noreferrer">
-          <img src={awsmini} alt="AWS logo"/>
-        </a>
-
         <a href={CV} download className={styles.description}>
           <button className="hover">Resume</button>
         </a>

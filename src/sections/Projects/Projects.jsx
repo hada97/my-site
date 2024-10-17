@@ -7,8 +7,9 @@ import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
 import jv from '../../assets/java (2).png';
-import aws from '../../assets/aws.png';
 import jvapic from '../../assets/javaapic.png';
+import web from '../../assets/web.png';
+import pythonat from '../../assets/pythonat.png';
 
 
 function Projects() {
@@ -66,6 +67,13 @@ function Projects() {
           link="https://github.com/hada97/consulta-cep"
           h3="API consumption"
           p="Java + Spring"
+        />
+
+        <ProjectCard
+          src={pythonat}
+          link="https://github.com/hada97/colecionador-de-cambio"
+          h3="Python Automation"
+          p="Python + Selenium + GI"
         />
         
       </div>
