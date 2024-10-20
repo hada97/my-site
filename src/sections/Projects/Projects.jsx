@@ -8,8 +8,8 @@ import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
 import jv from '../../assets/java (2).png';
 import jvapic from '../../assets/javaapic.png';
-import web from '../../assets/web.png';
 import pythonat from '../../assets/pythonat.png';
+import starwars from '../../assets/starwars.png';
 
 
 function Projects() {
@@ -75,6 +75,14 @@ function Projects() {
           h3="Python Automation"
           p="Python + Selenium + GI"
         />
+
+        <ProjectCard
+          src={starwars}
+          link="https://github.com/hada97/star-wars-cliente"
+          h3="API consumption"
+          p="HTML + CSS + JS"
+        />
+        
         
       </div>
     </section>

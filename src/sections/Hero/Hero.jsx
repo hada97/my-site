@@ -10,7 +10,7 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
-import awsmini from '../../assets/awsmini.png';
+
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -41,7 +41,7 @@ function Hero() {
           <br />
           Guimaraes
         </h1>
-        <h2>Backend Developer</h2>
+        <h2>Full Stack Developer</h2>
         <span>
           <a href="https://github.com/hada97" target="_blank">
             <img src={githubIcon} alt="Github icon" />
