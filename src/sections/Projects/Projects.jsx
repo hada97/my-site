@@ -6,7 +6,7 @@ import node from '../../assets/node-js.png';
 import apijava from '../../assets/cu.png';
 import ProjectCard from '../../common/ProjectCard';
 import kotlin from '../../assets/kt.png';
-import jv from '../../assets/java (2).png';
+import workshop from '../../assets/workshop.png';
 import jvapic from '../../assets/javaapic.png';
 import pythonat from '../../assets/pythonat.png';
 import starwars from '../../assets/starwars.png';
@@ -44,7 +44,7 @@ function Projects() {
         />
         <ProjectCard
           src={node}
-          link="https://3m82nyzpy9.us-east-1.awsapprunner.com/docs/"
+          link="ttps://github.com/hada97/nodeapi/"
           h3="Rest API"
           p="MongoDB + Node + AWS"
         />
@@ -56,8 +56,8 @@ function Projects() {
         />
 
         <ProjectCard
-          src={jv}
-          link="https://adailson65workshop-geg6aeb5e2d4encm.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/user-controller/findAll"
+          src={workshop}
+          link="https://workshop-workshop.onrender.com/swagger-ui/index.html"
           h3="Rest API"
           p="Spring + MongoDB + Azure"
         />
@@ -82,7 +82,6 @@ function Projects() {
           h3="API consumption"
           p="HTML + CSS + JS"
         />
-        
         
       </div>
     </section>

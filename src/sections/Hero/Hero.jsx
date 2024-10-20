@@ -41,7 +41,7 @@ function Hero() {
           <br />
           Guimaraes
         </h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Back End Developer</h2>
         <span>
           <a href="https://github.com/hada97" target="_blank">
             <img src={githubIcon} alt="Github icon" />
