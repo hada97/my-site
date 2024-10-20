@@ -20,9 +20,9 @@ function Projects() {
     
         <ProjectCard
           src={viberr}
-          link="http://54.159.124.62:8080/swagger-ui/index.html"
+          link="https://github.com/hada97/spring-boot-vollmed"
           h3="Rest API"
-          p="Spring + MySql + AWS"
+          p="Spring + PostgreSQL + AWS"
         />
         <ProjectCard
           src={kotlin}
