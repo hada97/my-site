@@ -1,15 +1,16 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/java.png';
-import poke from '../../assets/pkb.png';
-import py from '../../assets/python.png';
-import node from '../../assets/node-js.png';
-import apijava from '../../assets/cu.png';
-import ProjectCard from '../../common/ProjectCard';
-import kotlin from '../../assets/kt.png';
-import workshop from '../../assets/workshop.png';
-import jvapic from '../../assets/javaapic.png';
-import pythonat from '../../assets/pythonat.png';
-import starwars from '../../assets/starwars.png';
+import styles from "./ProjectsStyles.module.css";
+import viberr from "../../assets/java.png";
+import poke from "../../assets/pkb.png";
+import py from "../../assets/python.png";
+import node from "../../assets/node-js.png";
+import apijava from "../../assets/cu.png";
+import ProjectCard from "../../common/ProjectCard";
+import kotlin from "../../assets/kt.png";
+import workshop from "../../assets/workshop.png";
+import jvapic from "../../assets/javaapic.png";
+import pythonat from "../../assets/pythonat.png";
+import starwars from "../../assets/starwars.png";
+import webfull from "../../assets/webfull.png";
 
 
 function Projects() {
@@ -17,7 +18,6 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-    
         <ProjectCard
           src={viberr}
           link="https://github.com/hada97/spring-boot-vollmed"
@@ -82,7 +82,13 @@ function Projects() {
           h3="API consumption"
           p="HTML + CSS + JS"
         />
-        
+
+        <ProjectCard
+          src={webfull}
+          link="https://github.com/hada97/api-vollmed-front"
+          h3="App web Full Stack"
+          p="Java + MySQL + HTML + CSS + JS"
+        />
       </div>
     </section>
   );
