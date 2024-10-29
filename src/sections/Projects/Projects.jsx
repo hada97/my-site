@@ -20,13 +20,13 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/hada97/spring-boot-vollmed"
+          link="https://github.com/hada97/vollmed-mysql"
           h3="Rest API"
-          p="Spring + PostgreSQL + AWS"
+          p="Spring + MySQL + Azure"
         />
         <ProjectCard
           src={kotlin}
-          link="https://ko-hudjg9fxbfbagsbg.brazilsouth-01.azurewebsites.net/swagger-ui/index.html"
+          link="https://github.com/hada97/kotlin-api"
           h3="Rest API"
           p="Spring + Kotlin + Azure"
         />
@@ -44,7 +44,7 @@ function Projects() {
         />
         <ProjectCard
           src={node}
-          link="ttps://github.com/hada97/nodeapi/"
+          link="https://github.com/hada97/node-api-livraria"
           h3="Rest API"
           p="MongoDB + Node + AWS"
         />
@@ -57,7 +57,7 @@ function Projects() {
 
         <ProjectCard
           src={workshop}
-          link="https://workshop-workshop.onrender.com/swagger-ui/index.html"
+          link="https://github.com/hada97/workshopmongo"
           h3="Rest API"
           p="Spring + MongoDB + Azure"
         />
