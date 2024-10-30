@@ -86,8 +86,8 @@ function Projects() {
         <ProjectCard
           src={webfull}
           link="https://github.com/hada97/api-vollmed-front"
-          h3="App web Full Stack"
-          p="Java + MySQL + HTML + CSS + JS"
+          h3="App Web Full Stack"
+          p="Java + MySQL + Front"
         />
       </div>
     </section>
