@@ -11,7 +11,7 @@ import jvapic from "../../assets/javaapic.png";
 import pythonat from "../../assets/pythonat.png";
 import starwars from "../../assets/starwars.png";
 import webfull from "../../assets/webfull.png";
-
+import kanban from "../../assets/kanban.png";
 
 function Projects() {
   return (
@@ -88,6 +88,13 @@ function Projects() {
           link="https://github.com/hada97/api-vollmed-front"
           h3="App Web Full Stack"
           p="Java + MySQL + Front"
+        />
+
+        <ProjectCard
+          src={kanban}
+          link="https://hada97.github.io/kanban/"
+          h3="App Web Kanban"
+          p="HTML + CSS + JS"
         />
       </div>
     </section>
