@@ -19,6 +19,13 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={webfull}
+          link="https://github.com/hada97/api-vollmed-front"
+          h3="App Web Full Stack"
+          p="Java + MySQL + Front"
+        />
+
+        <ProjectCard
           src={viberr}
           link="https://github.com/hada97/vollmed-mysql"
           h3="Rest API"
@@ -30,12 +37,7 @@ function Projects() {
           h3="Rest API"
           p="Spring + Kotlin + Azure"
         />
-        <ProjectCard
-          src={poke}
-          link="https://github.com/hada97/pokedex"
-          h3="API consumption"
-          p="HTML + CSS + JS"
-        />
+
         <ProjectCard
           src={py}
           link="https://colab.research.google.com/github/hada97/data_visualization_Imigracao_01/blob/main/Data_visualization_Imigra%C3%A7%C3%A3o01.ipynb#scrollTo=13EnuLOB3o-f"
@@ -70,6 +72,13 @@ function Projects() {
         />
 
         <ProjectCard
+          src={poke}
+          link="https://github.com/hada97/pokedex"
+          h3="API consumption"
+          p="HTML + CSS + JS"
+        />
+
+        <ProjectCard
           src={pythonat}
           link="https://github.com/hada97/colecionador-de-cambio"
           h3="Python Automation"
@@ -81,13 +90,6 @@ function Projects() {
           link="https://github.com/hada97/star-wars-cliente"
           h3="API consumption"
           p="HTML + CSS + JS"
-        />
-
-        <ProjectCard
-          src={webfull}
-          link="https://github.com/hada97/api-vollmed-front"
-          h3="App Web Full Stack"
-          p="Java + MySQL + Front"
         />
 
         <ProjectCard
