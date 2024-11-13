@@ -52,7 +52,7 @@ function Hero() {
         </span>
 
         <p className={styles.description}>
-          Graduando em Análise e Desenvolvimento de Sistemas, AWS Certified, experiência com Java, banco de dados, Python, Node, Azure e Docker
+          Analistas de Sistemas, AWS Certified, experiência com Java, Spring, MySQL, MongoDB, Python, JS, Azure e Docker
         </p>
 
         <a href={CV} download className={styles.description}>

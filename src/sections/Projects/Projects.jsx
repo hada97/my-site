@@ -21,7 +21,7 @@ function Projects() {
         <ProjectCard
           src={webfull}
           link="https://github.com/hada97/api-vollmed-front"
-          h3="App Web Full Stack"
+          h3="Clínica Full Stack"
           p="Java + MySQL + Front"
         />
 
@@ -39,6 +39,13 @@ function Projects() {
         />
 
         <ProjectCard
+          src={apijava}
+          link="https://github.com/hada97/alurafood"
+          h3="Rest API"
+          p="Spring Microservices"
+        />
+
+        <ProjectCard
           src={py}
           link="https://colab.research.google.com/github/hada97/data_visualization_Imigracao_01/blob/main/Data_visualization_Imigra%C3%A7%C3%A3o01.ipynb#scrollTo=13EnuLOB3o-f"
           h3="Data Analysis"
@@ -49,12 +56,6 @@ function Projects() {
           link="https://github.com/hada97/node-api-livraria"
           h3="Rest API"
           p="MongoDB + Node + AWS"
-        />
-        <ProjectCard
-          src={apijava}
-          link="https://github.com/hada97/alurafood"
-          h3="Rest API"
-          p="Spring Cloud MS"
         />
 
         <ProjectCard
