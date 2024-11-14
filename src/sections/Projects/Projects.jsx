@@ -12,6 +12,8 @@ import pythonat from "../../assets/pythonat.png";
 import starwars from "../../assets/starwars.png";
 import webfull from "../../assets/webfull.png";
 import kanban from "../../assets/kanban.png";
+import livechat from "../../assets/livechat.png";
+
 
 function Projects() {
   return (
@@ -43,6 +45,13 @@ function Projects() {
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
           p="Spring Microservices"
+        />
+
+        <ProjectCard
+          src={livechat}
+          link="https://github.com/hada97/livechat"
+          h3="Web Live Chat"
+          p="Java + WebSocket"
         />
 
         <ProjectCard
