@@ -14,7 +14,6 @@ import webfull from "../../assets/webfull.png";
 import kanban from "../../assets/kanban.png";
 import livechat from "../../assets/livechat.png";
 
-
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -28,16 +27,24 @@ function Projects() {
         />
 
         <ProjectCard
+          src={livechat}
+          link="https://github.com/hada97/livechat"
+          h3="Web Livechat"
+          p="Java + Websocket"
+        />
+
+        <ProjectCard
           src={viberr}
           link="https://github.com/hada97/vollmed-mysql"
           h3="Rest API"
           p="Spring + MySQL + Azure"
         />
+
         <ProjectCard
           src={kotlin}
           link="https://github.com/hada97/kotlin-api"
           h3="Rest API"
-          p="Spring + Kotlin + Azure"
+          p="Spring + Kotlin"
         />
 
         <ProjectCard
@@ -45,13 +52,6 @@ function Projects() {
           link="https://github.com/hada97/alurafood"
           h3="Rest API"
           p="Spring Microservices"
-        />
-
-        <ProjectCard
-          src={livechat}
-          link="https://github.com/hada97/livechat"
-          h3="Web Live Chat"
-          p="Java + WebSocket"
         />
 
         <ProjectCard
