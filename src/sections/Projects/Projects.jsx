@@ -50,8 +50,8 @@ function Projects() {
         <ProjectCard
           src={apijava}
           link="https://github.com/hada97/alurafood"
-          h3="Rest API"
-          p="Spring Microservices"
+          h3="Microservices"
+          p="Java Microservices"
         />
 
         <ProjectCard
@@ -64,13 +64,13 @@ function Projects() {
           src={node}
           link="https://github.com/hada97/node-api-livraria"
           h3="Rest API"
-          p="MongoDB + Node + AWS"
+          p="MongoDB + Node"
         />
 
         <ProjectCard
           src={workshop}
           link="https://github.com/hada97/workshopmongo"
-          h3="Rest API"
+          h3="App Fullstack"
           p="Spring + MongoDB + Azure"
         />
 
