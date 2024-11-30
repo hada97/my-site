@@ -1,24 +1,23 @@
-import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/an3.png';
-import sun from '../../assets/sun.svg';
-import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/ww.svg';
-import twitterDark from '../../assets/wd.svg';
-import githubLight from '../../assets/github-light.svg';
-import githubDark from '../../assets/github-dark.svg';
-import linkedinLight from '../../assets/linkedin-light.svg';
-import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
-import { useTheme } from '../../common/ThemeContext';
-
+import styles from "./HeroStyles.module.css";
+import heroImg from "../../assets/an3.png";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import twitterLight from "../../assets/ww.svg";
+import twitterDark from "../../assets/wd.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
+import CV from "../../assets/cv.pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -46,19 +45,22 @@ function Hero() {
           <a href="https://github.com/hada97" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/adailson-g-4938a9270/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/adailson-g-4938a9270/"
+            target="_blank"
+          >
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
 
         <p className={styles.description}>
-          Analista de Sistemas, AWS Certified, experiência com Java, Spring, MySQL, MongoDB, Python, JS, Azure e Docker
+          Systems Analyst, AWS Certified, experience with Java, Spring, MySQL,
+          MongoDB, Python, JS, Azure and Docker
         </p>
 
         <a href={CV} download className={styles.description}>
           <button className="hover">Resume</button>
         </a>
-
       </div>
     </section>
   );

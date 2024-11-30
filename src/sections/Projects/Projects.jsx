@@ -22,7 +22,7 @@ function Projects() {
         <ProjectCard
           src={webfull}
           link="https://github.com/hada97/api-vollmed-front"
-          h3="Clínica Full Stack"
+          h3="Clinic Full Stack"
           p="Java + MySQL + Front"
         />
 
@@ -70,7 +70,7 @@ function Projects() {
         <ProjectCard
           src={workshop}
           link="https://github.com/hada97/workshopmongo"
-          h3="App Fullstack"
+          h3="App Full stack"
           p="Spring + MongoDB + Azure"
         />
 
@@ -82,13 +82,6 @@ function Projects() {
         />
 
         <ProjectCard
-          src={poke}
-          link="https://github.com/hada97/pokedex"
-          h3="API consumption"
-          p="HTML + CSS + JS"
-        />
-
-        <ProjectCard
           src={pythonat}
           link="https://github.com/hada97/colecionador-de-cambio"
           h3="Python Automation"
@@ -96,16 +89,23 @@ function Projects() {
         />
 
         <ProjectCard
-          src={starwars}
-          link="https://github.com/hada97/star-wars-cliente"
+          src={kanban}
+          link="https://hada97.github.io/kanban/"
+          h3="Kanban Board"
+          p="HTML + CSS + JS"
+        />
+
+        <ProjectCard
+          src={poke}
+          link="https://github.com/hada97/pokedex"
           h3="API consumption"
           p="HTML + CSS + JS"
         />
 
         <ProjectCard
-          src={kanban}
-          link="https://hada97.github.io/kanban/"
-          h3="App Web Kanban"
+          src={starwars}
+          link="https://github.com/hada97/star-wars-cliente"
+          h3="API consumption"
           p="HTML + CSS + JS"
         />
       </div>
