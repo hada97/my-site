@@ -13,6 +13,7 @@ import starwars from "../../assets/starwars.png";
 import webfull from "../../assets/webfull.png";
 import kanban from "../../assets/kanban.png";
 import livechat from "../../assets/livechat.png";
+import fast from "../../assets/fast.png";
 
 function Projects() {
   return (
@@ -59,6 +60,13 @@ function Projects() {
           link="https://colab.research.google.com/github/hada97/data_visualization_Imigracao_01/blob/main/Data_visualization_Imigra%C3%A7%C3%A3o01.ipynb#scrollTo=13EnuLOB3o-f"
           h3="Data Analysis"
           p="Python notebook"
+        />
+
+        <ProjectCard
+          src={fast}
+          link="https://github.com/hada97/fastapi"
+          h3="Python API"
+          p="FastAPI + Azure"
         />
         <ProjectCard
           src={node}
