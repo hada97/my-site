@@ -25,35 +25,35 @@ function Projects() {
           src={webfull}
           link="https://github.com/hada97/api-vollmed-front"
           h3="Clinic Full Stack"
-          p="Java + MySQL + Front"
+          p="Java | MySQL | Front"
         />
 
         <ProjectCard
           src={livechat}
           link="https://github.com/hada97/livechat"
           h3="Web Livechat"
-          p="Java + Websocket"
+          p="Java | Websocket"
         />
 
         <ProjectCard
           src={taxi}
           link="https://github.com/hada97/taxi-api"
-          h3="Taxi APP Fullstack"
-          p="Java + Spring + GeoLoc."
+          h3="Fullstack Taxi App"
+          p="Java | Geocode"
         />
 
         <ProjectCard
           src={viberr}
           link="https://github.com/hada97/vollmed-mysql"
           h3="Rest API"
-          p="Spring + MySQL + Azure"
+          p="Spring | MySQL | Azure"
         />
 
         <ProjectCard
           src={kotlin}
           link="https://github.com/hada97/kotlin-api"
           h3="Rest API"
-          p="Spring + Kotlin"
+          p="Spring | Kotlin"
         />
 
         <ProjectCard
@@ -74,55 +74,55 @@ function Projects() {
           src={fast}
           link="https://github.com/hada97/fastapi"
           h3="Python API"
-          p="FastAPI + Azure"
+          p="FastAPI | Azure"
         />
         <ProjectCard
           src={node}
           link="https://github.com/hada97/node-api-livraria"
           h3="Rest API"
-          p="MongoDB + Node"
+          p="MongoDB | Node"
         />
 
         <ProjectCard
           src={workshop}
           link="https://github.com/hada97/workshopmongo"
           h3="App Full stack"
-          p="Spring + MongoDB + Azure"
+          p="Spring | MongoDB | Azure"
         />
 
         <ProjectCard
           src={jvapic}
           link="https://github.com/hada97/consulta-cep"
           h3="API consumption"
-          p="Java + Spring"
+          p="Java | Spring"
         />
 
         <ProjectCard
           src={pythonat}
           link="https://github.com/hada97/colecionador-de-cambio"
           h3="Python Automation"
-          p="Python + Selenium + GI"
+          p="Python | Selenium | GI"
         />
 
         <ProjectCard
           src={kanban}
           link="https://hada97.github.io/kanban/"
           h3="Kanban Board"
-          p="HTML + CSS + JS"
+          p="HTML | CSS | JS"
         />
 
         <ProjectCard
           src={poke}
           link="https://github.com/hada97/pokedex"
           h3="API consumption"
-          p="HTML + CSS + JS"
+          p="HTML | CSS | JS"
         />
 
         <ProjectCard
           src={starwars}
           link="https://github.com/hada97/star-wars-cliente"
           h3="API consumption"
-          p="HTML + CSS + JS"
+          p="HTML | CSS | JS"
         />
       </div>
     </section>
