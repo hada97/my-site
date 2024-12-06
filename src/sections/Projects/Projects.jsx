@@ -14,6 +14,7 @@ import webfull from "../../assets/webfull.png";
 import kanban from "../../assets/kanban.png";
 import livechat from "../../assets/livechat.png";
 import fast from "../../assets/fast.png";
+import taxi from "../../assets/taxi.png";
 
 function Projects() {
   return (
@@ -32,6 +33,13 @@ function Projects() {
           link="https://github.com/hada97/livechat"
           h3="Web Livechat"
           p="Java + Websocket"
+        />
+
+        <ProjectCard
+          src={taxi}
+          link="https://github.com/hada97/taxi-api"
+          h3="Taxi APP Fullstack"
+          p="Java + Spring + GeoLoc."
         />
 
         <ProjectCard
