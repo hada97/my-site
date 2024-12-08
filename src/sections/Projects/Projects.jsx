@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/java.png";
+import vollmed from "../../assets/java.png";
 import poke from "../../assets/pkb.png";
 import py from "../../assets/python.png";
 import node from "../../assets/node-js.png";
@@ -15,6 +15,7 @@ import kanban from "../../assets/kanban.png";
 import livechat from "../../assets/livechat.png";
 import fast from "../../assets/fast.png";
 import taxi from "../../assets/taxi.png";
+import jtaxi from "../../assets/jtaxi.png";
 
 function Projects() {
   return (
@@ -24,8 +25,8 @@ function Projects() {
         <ProjectCard
           src={webfull}
           link="https://github.com/hada97/api-vollmed-front"
-          h3="Clinic Full Stack"
-          p="Java | MySQL | Front"
+          h3="Full Stack Clinic"
+          p="Java | MySQL"
         />
 
         <ProjectCard
@@ -38,15 +39,15 @@ function Projects() {
         <ProjectCard
           src={taxi}
           link="https://github.com/hada97/taxi-api"
-          h3="Fullstack Taxi App"
-          p="Java | Geocode"
+          h3="Full Stack Taxi"
+          p="Java | OpenStreetMap"
         />
 
         <ProjectCard
-          src={viberr}
+          src={vollmed}
           link="https://github.com/hada97/vollmed-mysql"
-          h3="Rest API"
-          p="Spring | MySQL | Azure"
+          h3="Spring API"
+          p="MySQL | Azure"
         />
 
         <ProjectCard
@@ -61,6 +62,13 @@ function Projects() {
           link="https://github.com/hada97/alurafood"
           h3="Microservices"
           p="Java Microservices"
+        />
+
+        <ProjectCard
+          src={jtaxi}
+          link="https://github.com/hada97/taxi-api"
+          h3="Spring API"
+          p="Azure | PostgreSQL"
         />
 
         <ProjectCard
@@ -87,7 +95,7 @@ function Projects() {
           src={workshop}
           link="https://github.com/hada97/workshopmongo"
           h3="App Full stack"
-          p="Spring | MongoDB | Azure"
+          p="MongoDB | Azure"
         />
 
         <ProjectCard
@@ -101,7 +109,7 @@ function Projects() {
           src={pythonat}
           link="https://github.com/hada97/colecionador-de-cambio"
           h3="Python Automation"
-          p="Python | Selenium | GI"
+          p="Python | Selenium"
         />
 
         <ProjectCard
