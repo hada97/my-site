@@ -15,7 +15,7 @@ import kanban from "../../assets/kanban.png";
 import livechat from "../../assets/livechat.png";
 import fast from "../../assets/fast.png";
 import taxi from "../../assets/taxi.png";
-import jtaxi from "../../assets/jtaxi.png";
+import dog from "../../assets/dog.png";
 
 function Projects() {
   return (
@@ -40,7 +40,7 @@ function Projects() {
           src={taxi}
           link="https://github.com/hada97/taxi-api"
           h3="Full Stack Taxi"
-          p="Java | OpenStreetMap"
+          p="Java | OpenStreetMap | PostgreSQL"
         />
 
         <ProjectCard
@@ -65,10 +65,10 @@ function Projects() {
         />
 
         <ProjectCard
-          src={jtaxi}
-          link="https://github.com/hada97/taxi-api"
-          h3="Spring API"
-          p="Azure | PostgreSQL"
+          src={dog}
+          link="https://github.com/hada97/tinderPet"
+          h3="Java API for Dog App"
+          p="Spring  | Oauth2 | MySQL"
         />
 
         <ProjectCard
@@ -88,14 +88,14 @@ function Projects() {
           src={node}
           link="https://github.com/hada97/node-api-livraria"
           h3="Rest API"
-          p="MongoDB | Node"
+          p="Node | MongoDB | Express"
         />
 
         <ProjectCard
           src={workshop}
           link="https://github.com/hada97/workshopmongo"
           h3="App Full stack"
-          p="MongoDB | Azure"
+          p="Spring | MongoDB | Azure"
         />
 
         <ProjectCard
