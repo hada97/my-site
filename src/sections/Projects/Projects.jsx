@@ -16,6 +16,7 @@ import livechat from "../../assets/livechat.png";
 import fast from "../../assets/fast.png";
 import taxi from "../../assets/taxi.png";
 import dog from "../../assets/dog.png";
+import memorize from "../../assets/memory.png";
 
 function Projects() {
   return (
@@ -123,6 +124,13 @@ function Projects() {
           src={poke}
           link="https://github.com/hada97/pokedex"
           h3="API consumption"
+          p="HTML | CSS | JS"
+        />
+
+        <ProjectCard
+          src={memorize}
+          link="https://github.com/hada97/memorize"
+          h3="Memory game"
           p="HTML | CSS | JS"
         />
 
