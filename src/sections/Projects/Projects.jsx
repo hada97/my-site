@@ -68,8 +68,8 @@ function Projects() {
         <ProjectCard
           src={dog}
           link="https://github.com/hada97/tinderPet"
-          h3="Java API for Dog App"
-          p="Spring  | Oauth2 | MySQL"
+          h3="Full Stack App"
+          p="Java | Oauth2 | MySQL"
         />
 
         <ProjectCard
