@@ -17,6 +17,7 @@ import fast from "../../assets/fast.png";
 import taxi from "../../assets/taxi.png";
 import dog from "../../assets/dog.png";
 import memorize from "../../assets/memory.png";
+import burguer from "../../assets/burguer.png";
 
 function Projects() {
   return (
@@ -52,6 +53,13 @@ function Projects() {
         />
 
         <ProjectCard
+          src={dog}
+          link="https://github.com/hada97/tinderPet"
+          h3="Full Stack App"
+          p="Java | Oauth2 | MySQL"
+        />
+
+        <ProjectCard
           src={kotlin}
           link="https://github.com/hada97/kotlin-api"
           h3="Rest API"
@@ -66,10 +74,10 @@ function Projects() {
         />
 
         <ProjectCard
-          src={dog}
-          link="https://github.com/hada97/tinderPet"
-          h3="Full Stack App"
-          p="Java | Oauth2 | MySQL"
+          src={burguer}
+          link="https://github.com/hada97/challenge-fastfood"
+          h3="Api Fast Food"
+          p="Java | Swagger | Junit"
         />
 
         <ProjectCard
