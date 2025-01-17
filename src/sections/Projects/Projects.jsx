@@ -18,6 +18,7 @@ import taxi from "../../assets/taxi.png";
 import dog from "../../assets/dog.png";
 import memorize from "../../assets/memory.png";
 import burguer from "../../assets/burguer.png";
+import mpc from "../../assets/mpc.png";
 
 function Projects() {
   return (
@@ -146,6 +147,13 @@ function Projects() {
           src={starwars}
           link="https://github.com/hada97/star-wars-cliente"
           h3="API consumption"
+          p="HTML | CSS | JS"
+        />
+
+        <ProjectCard
+          src={mpc}
+          link="https://github.com/hada97/mpc"
+          h3="Drums + API Recorder"
           p="HTML | CSS | JS"
         />
       </div>
