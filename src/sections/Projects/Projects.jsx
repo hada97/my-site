@@ -19,6 +19,7 @@ import dog from "../../assets/dog.png";
 import memorize from "../../assets/memory.png";
 import burguer from "../../assets/burguer.png";
 import mpc from "../../assets/mpc.png";
+import city from "../../assets/city.png";
 
 function Projects() {
   return (
@@ -58,6 +59,13 @@ function Projects() {
           link="https://github.com/hada97/tinderPet"
           h3="Full Stack App"
           p="Java | Oauth2 | MySQL"
+        />
+
+<ProjectCard
+          src={city}
+          link="https://github.com/hada97/CityVibe"
+          h3="App For Events"
+          p="Java | Oauth2 | H2"
         />
 
         <ProjectCard
